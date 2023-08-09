@@ -5,154 +5,169 @@ export default function Home() {
     <>
       <section className="section">
         <div className="section-center main-center">
-          <div className="user-info">
-            <div className="user-container theme-black">
-              <h2 className="title">CHENNA SREENU</h2>
-              <h4 className="thin mb-2 role">
-                <i>Front End Web Developer (Next.js)</i>
-              </h4>
-              <h5 className="icon-control thin">
-                <span>
-                  <i class="fa-solid fa-envelope fa-bounce fa-lg fa-fw"></i>
-                </span>
-                csrinu236@gmail.com
-              </h5>
-              <h5 className="icon-control thin">
-                <span>
-                  <i class="fa-solid fa-location-dot fa-flip fa-lg fa-fw"></i>
-                </span>
-                Hyderabad, India
-              </h5>
-              <h5 className="icon-control thin">
-                <span>
-                  <i class="fa-brands fa-linkedin fa-lg fa-fw"></i>
-                </span>
-                <a href="https://www.linkedin.com/in/chenna-sreenu-53b587189/">
-                  LinkedIn
-                </a>
-              </h5>
-              <h5 className="icon-control thin mb-0">
-                <span>
-                  <i class="fa-brands fa-github fa-lg fa-fw"></i>
-                </span>
-                <a href="https://github.com/csrinu236">Github</a>
-              </h5>
-            </div>
-            {/* =================================================== */}
-            {/* =================================================== */}
-            {/* =================================================== */}
-            <div className="user-container">
-              <h3>EDUCATION</h3>
-              <div className="user-details">
-                <h5 className="thin mb-0">
-                  BTech in Agriculture & Food Engineering
-                </h5>
-                <h5 className="icon-control">
+          <div className="user-container">
+            <div className="user-bio">
+              <div className="user-container theme-black">
+                <h2 className="title">CHENNA SREENU</h2>
+                <h4 className="thin mb-2 role">
+                  <i>Front End Web Developer (Next.js)</i>
+                </h4>
+                <h5 className="icon-control thin">
                   <span>
-                    <i class="fa-solid fa-location-dot fa-lg fa-fw"></i>
+                    <i class="fa-solid fa-envelope fa-bounce fa-lg fa-fw"></i>
                   </span>
-                  IIT Kharagpur, West Bengal
+                  csrinu236@gmail.com
                 </h5>
-                <h5 className="icon-control">
+                <h5 className="icon-control thin">
                   <span>
-                    <i class="fa-solid fa-calendar-days fa-lg fa-fw"></i>
+                    <i class="fa-solid fa-location-dot fa-flip fa-lg fa-fw"></i>
                   </span>
-                  Aug 2018 - Jun 2022
+                  Hyderabad, India
+                </h5>
+                <h5 className="icon-control thin">
+                  <span>
+                    <i class="fa-brands fa-linkedin fa-lg fa-fw"></i>
+                  </span>
+                  <a href="https://www.linkedin.com/in/chenna-sreenu-53b587189/">
+                    LinkedIn
+                  </a>
+                </h5>
+                <h5 className="icon-control thin mb-0">
+                  <span>
+                    <i class="fa-brands fa-github fa-lg fa-fw"></i>
+                  </span>
+                  <a href="https://github.com/csrinu236">Github</a>
                 </h5>
               </div>
-
-              <div className="user-details">
-                <h5 className="thin">Relevant Course Covered</h5>
-
-                <h5 className="icon-control">
-                  <span>
-                    <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                  </span>
-                  Programming(C, C++) & Data Structures
-                </h5>
-              </div>
+              {/* =================================================== */}
+              {/* =================================================== */}
+              {/* =================================================== */}
             </div>
-            <div className="user-container">
-              <h3>SKILLS</h3>
+            <div className="user-info">
+              <div className="user-container">
+                <h3>EDUCATION</h3>
+                <div className="user-details">
+                  <h5 className="thin mb-0">
+                    BTech in Agriculture & Food Engineering
+                  </h5>
+                  <h5 className="icon-control">
+                    <span>
+                      <i class="fa-solid fa-location-dot fa-lg fa-fw"></i>
+                    </span>
+                    IIT Kharagpur, West Bengal
+                  </h5>
+                  <h5 className="icon-control">
+                    <span>
+                      <i class="fa-solid fa-calendar-days fa-lg fa-fw"></i>
+                    </span>
+                    Aug 2018 - Jun 2022
+                  </h5>
+                </div>
 
-              <div className="user-details">
-                <h5 className="icon-control thin">
-                  <span>
-                    <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                  </span>
-                  <span>
-                    <b>HTML, Scss/Sass:</b> Proficient in writing HTML, Scss,
-                    making responsive websites and debugging in browser
-                    developer tools.
-                  </span>
-                </h5>
-                <h5 className="icon-control thin">
-                  <span>
-                    <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                  </span>
-                  <span>
-                    <b>JavaScript:</b> Highly proficient in writing modern ES6,
-                    including arrow functions, spread operators, rest operators,
-                    Promises, destructering of objects, and other ES6 features.
-                  </span>
-                </h5>
-                <h5 className="icon-control thin">
-                  <span>
-                    <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                  </span>
-                  <span>
-                    <b>Next.js:</b> Extensive hands-on experience with Next.js &
-                    it's features including useSWR hook, middleware gained while
-                    working on the development of JioTV.
-                  </span>
-                </h5>
-                <h5 className="icon-control thin">
-                  <span>
-                    <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                  </span>
-                  <span>
-                    <b>RxJS Observables:</b> Proficient in utilizing RxJS
-                    Observables for handling cross component communications and
-                    managing global states within components.
-                  </span>
-                </h5>
-                <h5 className="icon-control thin">
-                  <span>
-                    <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                  </span>
-                  <span>
-                    <b>Webpack: </b>Hands-on experience with Webpack for
-                    bundling packages to be used internally within the company,
-                    reducing dependency on external NPM packages.
-                  </span>
-                </h5>
+                <div className="user-details">
+                  <h5 className="thin">Relevant Course Covered</h5>
+
+                  <h5 className="icon-control">
+                    <span>
+                      <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                    </span>
+                    Programming(C, C++) & Data Structures
+                  </h5>
+                </div>
               </div>
-            </div>
-            <div className="user-container">
-              <h3>OTHER INTERESTS</h3>
-              <div className="user-details">
-                <h5 className="icon-control thin">
-                  <span>
-                    <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                  </span>
-                  <span>
-                    <b>Reading Books:</b> I love to read Self Help books and
-                    Finance related books.
-                  </span>
-                </h5>
-                <h5 className="icon-control thin">
-                  <span>
-                    <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                  </span>
-                  <span>
-                    <b>Trecking Hills/Mountains</b> I love to treck mountains on
-                    weekends.
-                  </span>
-                </h5>
+              <div className="user-container">
+                <h3>SKILLS</h3>
+
+                <div className="user-details">
+                  <h5 className="icon-control thin">
+                    <span>
+                      <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                    </span>
+                    <span>
+                      <b>HTML, Scss/Sass:</b> Proficient in writing HTML, Scss,
+                      making responsive websites and debugging in browser
+                      developer tools.
+                    </span>
+                  </h5>
+                  <h5 className="icon-control thin">
+                    <span>
+                      <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                    </span>
+                    <span>
+                      <b>JavaScript:</b> Highly proficient in writing modern
+                      ES6, including arrow functions, spread operators, rest
+                      operators, Promises, destructering of objects, and other
+                      ES6 features.
+                    </span>
+                  </h5>
+                  <h5 className="icon-control thin">
+                    <span>
+                      <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                    </span>
+                    <span>
+                      <b>Next.js:</b> Extensive hands-on experience with Next.js
+                      & it's features including useSWR hook, middleware gained
+                      while working on the development of JioTV.
+                    </span>
+                  </h5>
+                  <h5 className="icon-control thin">
+                    <span>
+                      <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                    </span>
+                    <span>
+                      <b>RxJS Observables:</b> Proficient in utilizing RxJS
+                      Observables for handling cross component communications
+                      and managing global states within components.
+                    </span>
+                  </h5>
+                  <h5 className="icon-control thin">
+                    <span>
+                      <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                    </span>
+                    <span>
+                      <b>Webpack: </b>Hands-on experience with Webpack for
+                      bundling packages to be used internally within the
+                      company, reducing dependency on external NPM packages.
+                    </span>
+                  </h5>
+                  <h5 className="icon-control thin">
+                    <span>
+                      <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                    </span>
+                    <span>
+                      <b>Docker & Kubernetes: </b>Hands-on experience on writing
+                      Dockerfiles and Kubernetes deployment files, thus able to
+                      debug bugs/issues of a website in production.
+                    </span>
+                  </h5>
+                </div>
+              </div>
+              <div className="user-container">
+                <h3>OTHER INTERESTS</h3>
+                <div className="user-details">
+                  <h5 className="icon-control thin">
+                    <span>
+                      <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                    </span>
+                    <span>
+                      <b>Reading Books:</b> I love to read Self Help books and
+                      Finance related books.
+                    </span>
+                  </h5>
+                  <h5 className="icon-control thin">
+                    <span>
+                      <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                    </span>
+                    <span>
+                      <b>Trecking Hills/Mountains</b> I love to treck mountains
+                      on weekends.
+                    </span>
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
-          <div className="job-details">
+          <div className="job-container">
             <div className="user-container career-objective">
               <h3>CAREER OBJECTIVE</h3>
               <h5 className="icon-control thin">
@@ -233,6 +248,21 @@ export default function Home() {
                   <Highlight>publish it to Playstore.</Highlight>
                 </span>
               </h5>
+              <h5 className="icon-control thin">
+                <span>
+                  <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                </span>
+                <span>
+                  I am good of writing
+                  <Highlight> Dockerfiles and Kubernetes</Highlight> deployment
+                  files and most importantly <Highlight>developed</Highlight> a
+                  way of how <Highlight>Nextjs applications</Highlight> can be
+                  deployed into production(kubernetes clustor) with{' '}
+                  <Highlight>
+                    2 servers(nginx and nextjs) in a single Pod.
+                  </Highlight>
+                </span>
+              </h5>
             </div>
             <div className="user-container">
               <h3>HIRE ME FOR</h3>
@@ -242,11 +272,11 @@ export default function Home() {
                 </span>
                 <span>
                   <b>Backend Developer(NodeJs/ExpressJs): </b> I am also
-                  familiar with how Backend works like making Express APIs,
+                  familiar about how Backend works like making Express APIs,
                   middleware functions, hashing passwords, storing them in
                   MongoDB, attaching JWT token to the response, user
-                  authentication etc. I curious to upskill myself to become a
-                  backend developer as well.
+                  authentication etc. I am also curious to upskill myself to
+                  become a backend developer as well.
                 </span>
               </h5>
               <h5 className="icon-control thin">
@@ -255,8 +285,8 @@ export default function Home() {
                 </span>
                 <span>
                   <b>Front End Web Developer(Next.js/React): </b> Next.js is
-                  almost same as ReactJs except few differences. So you can also
-                  Hire me for a Front End Web Developer role in React or NextJs
+                  almost same as ReactJs except few differences. So you can Hire
+                  me for a Front End Web Developer role in React or NextJs
                   technologies.
                 </span>
               </h5>

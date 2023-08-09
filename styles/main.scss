@@ -240,19 +240,27 @@ p {
   box-shadow: var(--light-shadow);
 }
 
-.job-details {
+.job-container {
   background: var(--clr-white);
+  padding: 1.5rem;
   border-top-right-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
 }
 
-.user-container {
+.user-info {
   padding: 1.5rem;
+}
+
+.user-container {
+  // padding: 1.5rem;
   border-top-left-radius: var(--radius);
+  margin-bottom: 1rem;
 
   &.theme-black {
+    padding: 1.5rem;
     background: var(--clr-black);
     color: var(--clr-white) !important;
+    margin-bottom: 0;
 
     .title {
       letter-spacing: unset;
