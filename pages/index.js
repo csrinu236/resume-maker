@@ -106,8 +106,10 @@ export default function Home() {
                     </span>
                     <span>
                       <b>Next.js:</b> Extensive hands-on experience with Next.js
-                      & it's features including useSWR hook, middleware gained
-                      while working on the development of JioTV.
+                      & it's features, file based routing, server side
+                      renedering, incremental static generation, useSWR hook,
+                      middleware gained while working on the development of
+                      JioTV.
                     </span>
                   </h5>
                   <h5 className="icon-control thin">
