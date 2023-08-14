@@ -1,6 +1,19 @@
 import Highlight from '@/components/Highlight';
 
 export default function Home() {
+  const printExp = () => {
+    const startDate = new Date('July 4, 2022');
+    const currentDate = new Date();
+
+    const totalMonths =
+      (currentDate.getFullYear() - startDate.getFullYear()) * 12 +
+      (currentDate.getMonth() - startDate.getMonth());
+    const years = Math.floor(totalMonths / 12);
+    const months = totalMonths % 12;
+
+    // console.log(`${years} years and ${months} months`);
+    return `${years}y, ${months}m`;
+  };
   return (
     <>
       <section className="section">
@@ -193,7 +206,10 @@ export default function Home() {
                 <span>
                   <i class="fa-solid fa-calendar-days fa-lg fa-fw"></i>
                 </span>
-                Jul 2022 - Jul-2023(1y, 1m)
+                {`Jul 2022 to ${new Intl.DateTimeFormat('en-IN', {
+                  year: 'numeric',
+                  month: 'short',
+                }).format(new Date().getTime())} (${printExp()})`}
               </h5>
               <h5 className="icon-control">
                 <span>
