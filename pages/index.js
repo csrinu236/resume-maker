@@ -1,6 +1,19 @@
 import Highlight from '@/components/Highlight';
 
 export default function Home() {
+  const printExp = () => {
+    const startDate = new Date('July 4, 2022');
+    const currentDate = new Date();
+
+    const totalMonths =
+      (currentDate.getFullYear() - startDate.getFullYear()) * 12 +
+      (currentDate.getMonth() - startDate.getMonth());
+    const years = Math.floor(totalMonths / 12);
+    const months = totalMonths % 12;
+
+    // console.log(`${years} years and ${months} months`);
+    return `${years}y, ${months}m`;
+  };
   return (
     <>
       <section className="section">
@@ -193,7 +206,10 @@ export default function Home() {
                 <span>
                   <i class="fa-solid fa-calendar-days fa-lg fa-fw"></i>
                 </span>
-                Jul 2022 - Jul-2023(1y, 1m)
+                {`Jul 2022 to ${new Intl.DateTimeFormat('en-IN', {
+                  year: 'numeric',
+                  month: 'short',
+                }).format(new Date().getTime())} (${printExp()})`}
               </h5>
               <h5 className="icon-control">
                 <span>
@@ -206,7 +222,7 @@ export default function Home() {
                   <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
                 </span>
                 <span>
-                  Wrote
+                  Proposed
                   <Highlight>
                     Custom Cookie Based User Authentication Logic
                   </Highlight>
@@ -216,7 +232,7 @@ export default function Home() {
                   <Highlight>
                     avoided Flickering of the application
                   </Highlight>{' '}
-                  and <Highlight>reduced build size to some extent.</Highlight>
+                  and <Highlight>the use of external npm package</Highlight>.
                 </span>
               </h5>
               <h5 className="icon-control thin">
@@ -238,16 +254,21 @@ export default function Home() {
                   <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
                 </span>
                 <span>
-                  Conducted extensive Research & Development on
+                  Good at writing
+                  <Highlight> Dockerfiles and Kubernetes</Highlight> deployment
+                  files and
+                  <a
+                    className="medium-link"
+                    title="Medium Article"
+                    href="https://medium.com/@csrinu236/deploying-next-js-applications-using-the-nginx-server-1-2-72f8c44ed9aa"
+                  >
+                    <Highlight>developed</Highlight>
+                  </a>
+                  a way of how <Highlight>Nextjs applications</Highlight> can be
+                  deployed into production (kubernetes clustor) with{' '}
                   <Highlight>
-                    Service Workers, Progressive Web Apps (PWAs), and Trusted
-                    Web Activities (TWAs)
+                    2 servers(nginx and nextjs) in a single Pod.
                   </Highlight>
-                  and delivered a presentation to my team on transforming the
-                  JioTV website into a <Highlight>Lite version</Highlight> for
-                  Android same like
-                  <Highlight>Instagram Lite and Facebook Lite</Highlight> and
-                  <Highlight>publish it to Playstore.</Highlight>
                 </span>
               </h5>
               <h5 className="icon-control thin">
@@ -255,14 +276,15 @@ export default function Home() {
                   <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
                 </span>
                 <span>
-                  I am good of writing
-                  <Highlight> Dockerfiles and Kubernetes</Highlight> deployment
-                  files and most importantly <Highlight>developed</Highlight> a
-                  way of how <Highlight>Nextjs applications</Highlight> can be
-                  deployed into production(kubernetes clustor) with{' '}
+                  Conducted R&D on
                   <Highlight>
-                    2 servers(nginx and nextjs) in a single Pod.
+                    Service Workers, Progressive Web Apps (PWAs), and Trusted
+                    Web Activities (TWAs)
                   </Highlight>
+                  and delivered a presentation to my team on transforming the
+                  JioTV website into a <Highlight>Lite version</Highlight> for
+                  Android same like
+                  <Highlight>Instagram Lite and Facebook Lite</Highlight>.
                 </span>
               </h5>
             </div>
@@ -273,12 +295,10 @@ export default function Home() {
                   <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
                 </span>
                 <span>
-                  <b>Backend Developer(NodeJs/ExpressJs): </b> I am also
-                  familiar about how Backend works like making Express APIs,
-                  middleware functions, hashing passwords, storing them in
-                  MongoDB, attaching JWT token to the response, user
-                  authentication etc. I am also curious to upskill myself to
-                  become a backend developer as well.
+                  <b>Front End Web Developer(Next.js/React): </b> Next.js is
+                  almost same as ReactJs except few minor differences. So Hire
+                  me for a Front End Web Developer role in React or NextJs
+                  technologies.
                 </span>
               </h5>
               <h5 className="icon-control thin">
@@ -286,10 +306,11 @@ export default function Home() {
                   <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
                 </span>
                 <span>
-                  <b>Front End Web Developer(Next.js/React): </b> Next.js is
-                  almost same as ReactJs except few differences. So you can Hire
-                  me for a Front End Web Developer role in React or NextJs
-                  technologies.
+                  <b>Backend Developer(NodeJs/ExpressJs): </b> I am also
+                  familiar about how Backend works like making Express APIs,
+                  middleware functions, hashing passwords, storing them in
+                  MongoDB, user authentication etc. I am also curious to upskill
+                  myself to become a backend developer as well.
                 </span>
               </h5>
             </div>
