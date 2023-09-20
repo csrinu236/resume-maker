@@ -173,7 +173,7 @@ p {
 }
 /* section */
 .section {
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .mb-0 {
@@ -282,6 +282,10 @@ p {
   grid-template-columns: auto 1fr;
   span {
     margin-right: 0.5rem;
+  }
+
+  a.medium-link i {
+    background: yellow;
   }
 }
 
