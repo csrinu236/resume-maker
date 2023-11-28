@@ -198,18 +198,6 @@ export default function Home() {
                   <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
                 </span>
                 <span>
-                  Proposed
-                  <Highlight>Custom Cookie Based User Authentication Logic</Highlight>
-                  in current JioTV web application (Next.js) without using any external NPM packages recommended (like NextAuth) in Next.js docs and
-                  thus
-                  <Highlight>avoided Flickering of the application</Highlight> and <Highlight>the use of external npm package</Highlight>.
-                </span>
-              </h5>
-              <h5 className="icon-control thin">
-                <span>
-                  <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                </span>
-                <span>
                   Wrote
                   <Highlight>Custom Infinite Scroll Logic</Highlight>
                   in current JioTV web application (Next.js) for all pages using
@@ -237,19 +225,32 @@ export default function Home() {
                   <Highlight>2 servers(nginx and nextjs).</Highlight>
                 </span>
               </h5>
+
               <h5 className="icon-control thin">
                 <span>
                   <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
                 </span>
                 <span>
-                  Also worked on JioThanqAPIs
+                  Worked on JioThanqAPIs
                   <Highlight>(express js project)</Highlight>
-                  which covers
+                  which covered
                   <Highlight>
                     authentication & authorization, express middlewares, JWT token, hashing passwords, access token, refresh token, controllers,
                     MongoDB, mongoose schemas, aggregate methods, pre&post hooks
                   </Highlight>
                   , etc.
+                </span>
+              </h5>
+              <h5 className="icon-control thin">
+                <span>
+                  <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                </span>
+                <span>
+                  Proposed
+                  <Highlight>Custom Cookie Based User Authentication Logic</Highlight>
+                  in current JioTV web application (Next.js) without using any external NPM packages recommended (like NextAuth) in Next.js docs and
+                  thus
+                  <Highlight>avoided Flickering of the application</Highlight> and <Highlight>the use of external npm package</Highlight>.
                 </span>
               </h5>
               <h5 className="icon-control thin">
@@ -267,15 +268,7 @@ export default function Home() {
             </div>
             <div className="user-container">
               <h3>HIRE ME FOR</h3>
-              <h5 className="icon-control thin">
-                <span>
-                  <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
-                </span>
-                <span>
-                  <b>Front End Web Developer(Next.js/React): </b> Next.js is almost same as ReactJs except few minor differences. So Hire me for a
-                  Front End Web Developer role in React or NextJs technologies.
-                </span>
-              </h5>
+
               <h5 className="icon-control thin">
                 <span>
                   <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
@@ -283,6 +276,15 @@ export default function Home() {
                 <span>
                   <b>Backend Developer(NodeJs/ExpressJs): </b> I also worked on Backend, I am also curious to upskill myself to become a full stack
                   developer as well.
+                </span>
+              </h5>
+              <h5 className="icon-control thin">
+                <span>
+                  <i class="fa-solid fa-hand-pointer fa-rotate-90 fa-lg fa-fw"></i>
+                </span>
+                <span>
+                  <b>Front End Web Developer(Next.js/React): </b> Next.js is almost same as ReactJs except few minor differences. So Hire me for a
+                  Front End Web Developer role in React or NextJs technologies.
                 </span>
               </h5>
             </div>
